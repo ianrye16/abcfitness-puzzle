@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d2b48c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+  .puzzle-card {
+    background-color: #f4f4f4;
+    border: 2px solid #5a3d28;
+    border-radius: 24px;
+    width: 920px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    position: relative;
+  }
+ 
+  .header-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #3b6288;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.1;
+  }
+ 
+  h1 {
+    color: #3b6288;
+    font-size: 32px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+ 
+  .subtitle {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+ 
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+ 
+  .left-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+ 
+  .info-box {
+    background: #ffffff;
+    border: 1.5px solid #cccccc;
+    border-radius: 12px;
+    padding: 15px;
+  }
+ 
+  .info-box h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 16px;
+  }
+ 
+  .info-box ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: #444;
+    line-height: 1.5;
+  }
+ 
+  .word-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+  }
+ 
+  .right-panel {
+    flex: 1.4;
+    background-color: #2b2b2b;
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    gap: 3px;
+    text-align: center;
+  }
+ 
+  .cell {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    font-family: monospace;
+  }
+ 
+  .footer-note {
+    margin-top: 15px;
+    font-size: 11px;
+    color: #666;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+ 
+<div class="puzzle-card">
+<div class="header-badge">ABC<br><small>EDITION</small></div>
+<h1>Word Search Puzzle</h1>
+<div class="subtitle">Want to test your ABC Fitness knowledge and win a prize?</div>
+ 
+  <div class="container">
+<div class="left-panel">
+<div class="info-box">
+<h3>How to Play:</h3>
+<ul>
+<li>Find the 12 terms hidden in the grid (words appear horizontally, vertically, or diagonally, forwards or backwards).</li>
+<li>Snap a clear photo or screenshot of your fully completed answer sheet.</li>
+<li>Reply directly to this post with your photo to lock in your submission time.</li>
+</ul>
+</div>
+ 
+      <div class="info-box">
+<h3>Word List:</h3>
+<div class="word-list">
+<div>• AUTHORIZATION</div>
+<div>• SERVICE FEE</div>
+<div>• BILLING</div>
+<div>• COMMERCE</div>
+<div>• GYM</div>
+<div>• ABCFITNESS</div>
+<div>• CANCELLATION</div>
+<div>• CALLMINER</div>
+<div>• FREEZE</div>
+<div>• PROCESSINGPLUS</div>
+<div>• REFUND</div>
+<div>• DATATRAK</div>
+</div>
+</div>
+ 
+    </div>
+ 
+    <div class="right-panel">
+<div class="grid">
+<!-- Row 1 -->
+<div class="cell">S</div><div class="cell">N</div><div class="cell">O</div><div class="cell">I</div><div class="cell">T</div><div class="cell">A</div><div class="cell">Z</div><div class="cell">I</div><div class="cell">R</div><div class="cell">O</div><div class="cell">H</div><div class="cell">T</div><div class="cell">U</div><div class="cell">A</div><div class="cell">D</div><div class="cell">F</div><div class="cell">G</div>
+<!-- Row 2 -->
+<div class="cell">S</div><div class="cell">R</div><div class="cell">K</div><div class="cell">F</div><div class="cell">B</div><div class="cell">M</div><div class="cell">O</div><div class="cell">I</div><div class="cell">G</div><div class="cell">N</div><div class="cell">I</div><div class="cell">L</div><div class="cell">L</div><div class="cell">I</div><div class="cell">B</div><div class="cell">J</div><div class="cell">C</div>
+<!-- Row 3 -->
+<div class="cell">U</div><div class="cell">E</div><div class="cell">A</div><div class="cell">B</div><div class="cell">C</div><div class="cell">F</div><div class="cell">I</div><div class="cell">T</div><div class="cell">N</div><div class="cell">E</div><div class="cell">S</div><div class="cell">S</div><div class="cell">W</div><div class="cell">P</div><div class="cell">E</div><div class="cell">B</div><div class="cell">A</div>
+<!-- Row 4 -->
+<div class="cell">L</div><div class="cell">E</div><div class="cell">C</div><div class="cell">D</div><div class="cell">F</div><div class="cell">S</div><div class="cell">V</div><div class="cell">F</div><div class="cell">M</div><div class="cell">Y</div><div class="cell">G</div><div class="cell">O</div><div class="cell">Q</div><div class="cell">R</div><div class="cell">S</div><div class="cell">S</div><div class="cell">N</div>
+<!-- Row 5 -->
+<div class="cell">P</div><div class="cell">V</div><div class="cell">R</div><div class="cell">I</div><div class="cell">A</div><div class="cell">Q</div><div class="cell">T</div><div class="cell">R</div><div class="cell">X</div><div class="cell">M</div><div class="cell">G</div><div class="cell">E</div><div class="cell">V</div><div class="cell">O</div><div class="cell">E</div><div class="cell">L</div><div class="cell">C</div>
+<!-- Row 6 -->
+<div class="cell">G</div><div class="cell">R</div><div class="cell">V</div><div class="cell">V</div><div class="cell">N</div><div class="cell">T</div><div class="cell">A</div><div class="cell">U</div><div class="cell">E</div><div class="cell">K</div><div class="cell">H</div><div class="cell">G</div><div class="cell">R</div><div class="cell">C</div><div class="cell">E</div><div class="cell">M</div><div class="cell">E</div>
+<!-- Row 7 -->
+<div class="cell">N</div><div class="cell">E</div><div class="cell">N</div><div class="cell">R</div><div class="cell">M</div><div class="cell">D</div><div class="cell">E</div><div class="cell">T</div><div class="cell">I</div><div class="cell">N</div><div class="cell">C</div><div class="cell">S</div><div class="cell">E</div><div class="cell">E</div><div class="cell">C</div><div class="cell">D</div><div class="cell">L</div>
+<!-- Row 8 -->
+<div class="cell">I</div><div class="cell">S</div><div class="cell">Y</div><div class="cell">E</div><div class="cell">R</div><div class="cell">N</div><div class="cell">P</div><div class="cell">L</div><div class="cell">R</div><div class="cell">D</div><div class="cell">C</div><div class="cell">A</div><div class="cell">F</div><div class="cell">S</div><div class="cell">I</div><div class="cell">E</div><div class="cell">L</div>
+<!-- Row 9 -->
+<div class="cell">S</div><div class="cell">S</div><div class="cell">D</div><div class="cell">O</div><div class="cell">C</div><div class="cell">O</div><div class="cell">A</div><div class="cell">I</div><div class="cell">E</div><div class="cell">A</div><div class="cell">U</div><div class="cell">S</div><div class="cell">O</div><div class="cell">S</div><div class="cell">V</div><div class="cell">B</div><div class="cell">A</div>
+<!-- Row 10 -->
+<div class="cell">S</div><div class="cell">I</div><div class="cell">K</div><div class="cell">U</div><div class="cell">U</div><div class="cell">M</div><div class="cell">E</div><div class="cell">C</div><div class="cell">M</div><div class="cell">M</div><div class="cell">K</div><div class="cell">O</div><div class="cell">A</div><div class="cell">I</div><div class="cell">R</div><div class="cell">T</div><div class="cell">T</div>
+<!-- Row 11 -->
+<div class="cell">E</div><div class="cell">M</div><div class="cell">T</div><div class="cell">E</div><div class="cell">T</div><div class="cell">F</div><div class="cell">S</div><div class="cell">G</div><div class="cell">N</div><div class="cell">I</div><div class="cell">O</div><div class="cell">W</div><div class="cell">P</div><div class="cell">N</div><div class="cell">E</div><div class="cell">A</div><div class="cell">I</div>
+<!-- Row 12 -->
+<div class="cell">C</div><div class="cell">R</div><div class="cell">R</div><div class="cell">Y</div><div class="cell">E</div><div class="cell">S</div><div class="cell">R</div><div class="cell">R</div><div class="cell">O</div><div class="cell">E</div><div class="cell">I</div><div class="cell">L</div><div class="cell">N</div><div class="cell">G</div><div class="cell">S</div><div class="cell">C</div><div class="cell">O</div>
+<!-- Row 13 -->
+<div class="cell">O</div><div class="cell">E</div><div class="cell">M</div><div class="cell">S</div><div class="cell">X</div><div class="cell">M</div><div class="cell">N</div><div class="cell">W</div><div class="cell">E</div><div class="cell">C</div><div class="cell">V</div><div class="cell">L</div><div class="cell">S</div><div class="cell">P</div><div class="cell">F</div><div class="cell">U</div><div class="cell">N</div>
+<!-- Row 14 -->
+<div class="cell">R</div><div class="cell">P</div><div class="cell">L</div><div class="cell">E</div><div class="cell">X</div><div class="cell">C</div><div class="cell">O</div><div class="cell">S</div><div class="cell">G</div><div class="cell">F</div><div class="cell">T</div><div class="cell">R</div><div class="cell">R</div><div class="cell">L</div><div class="cell">O</div><div class="cell">J</div><div class="cell">B</div>
+<!-- Row 15 -->
+<div class="cell">P</div><div class="cell">Q</div><div class="cell">F</div><div class="cell">D</div><div class="cell">A</div><div class="cell">T</div><div class="cell">A</div><div class="cell">T</div><div class="cell">R</div><div class="cell">A</div><div class="cell">K</div><div class="cell">B</div><div class="cell">W</div><div class="cell">U</div><div class="cell">U</div><div class="cell">L</div><div class="cell">N</div>
+<!-- Row 16 -->
+<div class="cell">J</div><div class="cell">L</div><div class="cell">D</div><div class="cell">F</div><div class="cell">S</div><div class="cell">E</div><div class="cell">Z</div><div class="cell">E</div><div class="cell">E</div><div class="cell">R</div><div class="cell">F</div><div class="cell">U</div><div class="cell">B</div><div class="cell">S</div><div class="cell">M</div><div class="cell">P</div><div class="cell">Q</div>
+<!-- Row 17 -->
+<div class="cell">C</div><div class="cell">A</div><div class="cell">L</div><div class="cell">L</div><div class="cell">M</div><div class="cell">I</div><div class="cell">N</div><div class="cell">E</div><div class="cell">R</div><div class="cell">E</div><div class="cell">D</div><div class="cell">N</div><div class="cell">U</div><div class="cell">F</div><div class="cell">E</div><div class="cell">R</div><div class="cell">K</div>
+</div>
+</div>
+</div>
+ 
+  <div class="footer-note">Note: Incomplete or illegible submissions will be disqualified, and the prize will go to the next fastest eligible participant. Good luck!</div>
+</div>
+ 
+</body>
+</html>
